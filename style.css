@@ -1,0 +1,90 @@
+.mainBody {
+  width: 90%;
+  margin: auto;
+}
+
+.navBar {
+  display: flex;
+  background-color: rgb(145, 10, 10);
+  color: white;
+}
+
+.logo {
+  margin-left: 5px;
+}
+
+.links {
+  margin-left: 70%;
+  margin-top: 15px;
+  word-spacing: 5px;
+}
+
+.links a {
+  text-decoration: none;
+  color: whitesmoke;
+  opacity: 0.7;
+}
+
+.links a:hover {
+  color: black;
+}
+
+.newsBlock {
+  display: flex;
+  background-color: rgb(147, 221, 221);
+  margin-top: 15px;
+}
+
+.newsBlock img {
+  margin: 15px;
+  width: 30%;
+}
+
+.lateNews {
+  text-align: center;
+}
+
+.newsCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardTemplate {
+  display: block;
+  border: 2px;
+  margin: 0 10px;
+  /* background-color: rgb(239, 246, 251); */
+  border: 1px solid rgb(161, 161, 161);
+  /* outline: 1px solid black; */
+}
+
+.cardTemplate img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.cardTemplate h3 {
+  margin-left: 10px;
+}
+
+.cardTemplate p {
+  margin-left: 10px;
+}
+
+.cardTemplate button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: brown;
+  color: white;
+  padding: 5px 7px;
+}
+
+.cardTemplate button:hover {
+  cursor: pointer;
+}
+.cardTemplate button:active {
+  color: black;
+  background-color: rgb(255, 5, 5);
+}
